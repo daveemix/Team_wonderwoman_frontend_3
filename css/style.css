@@ -1,1 +1,92 @@
-.
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Header */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/hero-bg.jpg');   
+    width: 100%;
+    height: 300px;
+}
+
+
+.hotel-rooms{
+    text-align: center;
+    line-height: 300px;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+/* Hotel Rooms Grid */
+
+.explore-rooms{
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    line-height: 41px;
+    color: #333333;
+}
+
+main{
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+.rooms .rooms-class{
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px){
+    .rooms{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+    }
+    .rooms .rooms-class{
+        max-width: 46%;
+        height: 40%;
+        margin: 2%;
+    }
+}
+
+.rooms .rooms-class img{
+    width: 100%;
+    height: 60%;
+}
+.label{
+    width: 100%;
+    height: 40%;
+}
+.label h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+}
+.label p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    font-style: normal;
+}
+.opaque{
+    opacity: 0.6;
+}
+
+/* Button */
+.learn{
+  padding: 16px 32px;
+  background-color: #96772C;
+  border: 1px solid #96772c;
+  color: #fff;
+  text-transform: uppercase;
+
+}
